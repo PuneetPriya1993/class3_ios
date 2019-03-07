@@ -34,7 +34,10 @@ class LoginViewController: UIViewController {
             
             let next = sb.instantiateViewController(withIdentifier: "1") as! HomeViewController
             
-            self.present(next, animated: true)
+            //self.present(next, animated: true)
+        
+        self.navigationController?.pushViewController(next, animated: true)
+        
         }
         
         else
