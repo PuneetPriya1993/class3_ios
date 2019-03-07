@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		9B2C406B2230954E00CBEF0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2C406A2230954E00CBEF0D /* AppDelegate.swift */; };
-		9B2C406D2230954E00CBEF0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2C406C2230954E00CBEF0D /* ViewController.swift */; };
+		9B2C406D2230954E00CBEF0D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2C406C2230954E00CBEF0D /* LoginViewController.swift */; };
 		9B2C40702230954E00CBEF0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B2C406E2230954E00CBEF0D /* Main.storyboard */; };
 		9B2C40722230954E00CBEF0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B2C40712230954E00CBEF0D /* Assets.xcassets */; };
 		9B2C40752230954E00CBEF0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B2C40732230954E00CBEF0D /* LaunchScreen.storyboard */; };
 		9B2C40802230954E00CBEF0D /* day3iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2C407F2230954E00CBEF0D /* day3iosTests.swift */; };
 		9B2C408B2230954E00CBEF0D /* day3iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2C408A2230954E00CBEF0D /* day3iosUITests.swift */; };
+		9B2C4099223095FF00CBEF0D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2C4098223095FF00CBEF0D /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		9B2C40672230954E00CBEF0D /* day3ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = day3ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B2C406A2230954E00CBEF0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9B2C406C2230954E00CBEF0D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9B2C406C2230954E00CBEF0D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		9B2C406F2230954E00CBEF0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9B2C40712230954E00CBEF0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B2C40742230954E00CBEF0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,7 @@
 		9B2C40862230954E00CBEF0D /* day3iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = day3iosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B2C408A2230954E00CBEF0D /* day3iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day3iosUITests.swift; sourceTree = "<group>"; };
 		9B2C408C2230954E00CBEF0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B2C4098223095FF00CBEF0D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +100,12 @@
 			isa = PBXGroup;
 			children = (
 				9B2C406A2230954E00CBEF0D /* AppDelegate.swift */,
-				9B2C406C2230954E00CBEF0D /* ViewController.swift */,
+				9B2C406C2230954E00CBEF0D /* LoginViewController.swift */,
 				9B2C406E2230954E00CBEF0D /* Main.storyboard */,
 				9B2C40712230954E00CBEF0D /* Assets.xcassets */,
 				9B2C40732230954E00CBEF0D /* LaunchScreen.storyboard */,
 				9B2C40762230954E00CBEF0D /* Info.plist */,
+				9B2C4098223095FF00CBEF0D /* HomeViewController.swift */,
 			);
 			path = day3ios;
 			sourceTree = "<group>";
@@ -256,8 +259,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B2C406D2230954E00CBEF0D /* ViewController.swift in Sources */,
+				9B2C406D2230954E00CBEF0D /* LoginViewController.swift in Sources */,
 				9B2C406B2230954E00CBEF0D /* AppDelegate.swift in Sources */,
+				9B2C4099223095FF00CBEF0D /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
