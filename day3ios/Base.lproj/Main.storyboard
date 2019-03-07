@@ -96,7 +96,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="About us"/>
                                 <connections>
-                                    <segue destination="QGy-Xi-PgS" kind="show" id="Ita-9W-e5V"/>
+                                    <action selector="btnforAbout:" destination="bwd-jD-lWG" eventType="touchUpInside" id="vXB-PU-Kqe"/>
+                                    <segue destination="QGy-Xi-PgS" kind="show" id="hFd-bF-ydw"/>
                                 </connections>
                             </button>
                         </subviews>
