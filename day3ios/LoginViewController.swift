@@ -34,10 +34,17 @@ class LoginViewController: UIViewController {
             
             let next = sb.instantiateViewController(withIdentifier: "1") as! HomeViewController
             
+            
+            
+            next.userEmail = txt1.text
             //self.present(next, animated: true)
         
         self.navigationController?.pushViewController(next, animated: true)
         
+            
+            
+            
+            
         }
         
         else

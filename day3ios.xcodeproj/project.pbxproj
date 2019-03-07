@@ -15,6 +15,7 @@
 		9B2C40802230954E00CBEF0D /* day3iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2C407F2230954E00CBEF0D /* day3iosTests.swift */; };
 		9B2C408B2230954E00CBEF0D /* day3iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2C408A2230954E00CBEF0D /* day3iosUITests.swift */; };
 		9B2C4099223095FF00CBEF0D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2C4098223095FF00CBEF0D /* HomeViewController.swift */; };
+		9B2C409F2230A4A300CBEF0D /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2C409E2230A4A300CBEF0D /* AboutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		9B2C408A2230954E00CBEF0D /* day3iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day3iosUITests.swift; sourceTree = "<group>"; };
 		9B2C408C2230954E00CBEF0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B2C4098223095FF00CBEF0D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9B2C409E2230A4A300CBEF0D /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				9B2C40732230954E00CBEF0D /* LaunchScreen.storyboard */,
 				9B2C40762230954E00CBEF0D /* Info.plist */,
 				9B2C4098223095FF00CBEF0D /* HomeViewController.swift */,
+				9B2C409E2230A4A300CBEF0D /* AboutViewController.swift */,
 			);
 			path = day3ios;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				9B2C406D2230954E00CBEF0D /* LoginViewController.swift in Sources */,
 				9B2C406B2230954E00CBEF0D /* AppDelegate.swift in Sources */,
+				9B2C409F2230A4A300CBEF0D /* AboutViewController.swift in Sources */,
 				9B2C4099223095FF00CBEF0D /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
