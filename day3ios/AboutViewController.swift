@@ -11,6 +11,11 @@ import UIKit
 class AboutViewController: UIViewController {
 
     
+    @IBOutlet weak var progressbar: UIProgressView!
+    @IBOutlet weak var sliderlbl: UILabel!
+    
+    @IBOutlet weak var lblstepper: UILabel!
+    
     @IBOutlet weak var lblanimal: UILabel!
     
     @IBOutlet weak var imagee: UIImageView!
@@ -83,9 +88,23 @@ class AboutViewController: UIViewController {
         default:
             print("Invalid Choice")
         }
+    }
+    
+    
+    
+    
+    @IBAction func stepper(_ sender: UIStepper)
+    {
+        lblstepper.text = "\(sender.value)"
         
     }
     
+    @IBAction func slider(_ sender: UISlider) {
+        sliderlbl.text = "\(sender.value)"
+        
+        progressbar.progress = sender.value / 100.0
+        
+    }
     
     
     
