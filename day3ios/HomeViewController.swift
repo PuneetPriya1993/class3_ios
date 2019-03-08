@@ -23,7 +23,20 @@ class HomeViewController: UIViewController {
             self.lbl1.text = "Wlcome.....\(e)" 
         }
         
-      // to hide back button of login
+        let userDefault = UserDefaults.standard
+        
+        if let email = userDefault.string(forKey: "userEmail")
+        {
+            print(email)
+        }
+        
+     if   let password = userDefault.string(forKey: "userPassword")
+     {
+        print(password)
+        }
+        
+       // print(email, password)
+        // to hide back button of login
         
         
         self.navigationItem.hidesBackButton = true

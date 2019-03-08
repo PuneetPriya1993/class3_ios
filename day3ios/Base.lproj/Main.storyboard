@@ -136,14 +136,43 @@
                                     <action selector="btnClick:" destination="QGy-Xi-PgS" eventType="touchUpInside" id="jze-q6-Q58"/>
                                 </connections>
                             </button>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="ezS-fM-ufA">
+                                <rect key="frame" x="8" y="313" width="343" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="First"/>
+                                    <segment title="Second"/>
+                                    <segment title="Third"/>
+                                    <segment title="Fourth"/>
+                                </segments>
+                                <connections>
+                                    <action selector="segmentChange:" destination="QGy-Xi-PgS" eventType="valueChanged" id="4My-T6-ctb"/>
+                                </connections>
+                            </segmentedControl>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HjY-WF-0Lp">
+                                <rect key="frame" x="51" y="438" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VkF-pJ-MRp">
+                                <rect key="frame" x="59" y="375" width="213" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="SLO-b0-qIt"/>
                     </view>
+                    <connections>
+                        <outlet property="imagee" destination="HjY-WF-0Lp" id="6sY-BU-G7l"/>
+                        <outlet property="lblanimal" destination="VkF-pJ-MRp" id="j0I-nj-B9Z"/>
+                        <outlet property="segmentAnimal" destination="ezS-fM-ufA" id="NsC-Ku-rhB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7RJ-dk-SMe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3432.8000000000002" y="46.326836581709152"/>
+            <point key="canvasLocation" x="3440.8000000000002" y="-179.46026986506749"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Vs0-BC-Obo">
@@ -179,7 +208,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0q8-MB-Sv5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1757.5999999999999" y="133.5832083958021"/>
+            <point key="canvasLocation" x="1759" y="-107"/>
         </scene>
     </scenes>
 </document>

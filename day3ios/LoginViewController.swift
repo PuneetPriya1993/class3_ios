@@ -42,8 +42,29 @@ class LoginViewController: UIViewController {
         self.navigationController?.pushViewController(next, animated: true)
         
             
+            // persistent storage types:
+                // 1. user defined
+                // 2. property list
+                // 3. core data / sqlite
+                // 4. XMC/JSON/text etc
+                // 5. REST API/ Cloud
             
+let userDefault = UserDefaults.standard
             
+            if(btnswitch.isOn)
+            {
+                // Store Data to user Default Storage
+                
+                userDefault.set(txt1.text, forKey: "userEmail")
+                userDefault.set(password.text, forKey: "userPassword")
+            }
+            
+            else
+            {
+               userDefault.removeObject(forKey: "userEmail")
+                
+                userDefault.removeObject(forKey: "userPassword")
+            }
             
         }
         

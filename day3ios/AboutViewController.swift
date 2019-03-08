@@ -11,11 +11,24 @@ import UIKit
 class AboutViewController: UIViewController {
 
     
+    @IBOutlet weak var lblanimal: UILabel!
+    
+    @IBOutlet weak var imagee: UIImageView!
+    
+    @IBOutlet weak var segmentAnimal: UISegmentedControl!
+    
+  
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
     
+            imagee.image = UIImage(named: "dog.jpeg")
+        
+        
+        // Add segment dynamically
+        
+        segmentAnimal.insertSegment(withTitle: "Forth", at: 3, animated: true)
         
         
         // Do any additional setup after loading the view.
@@ -37,5 +50,46 @@ class AboutViewController: UIViewController {
             let v = self.navigationController?.viewControllers[0]
         self.navigationController?.popToViewController(v!, animated: true)
     }
+    
+    
+    
+    
+    @IBAction func segmentChange(_ sender: UISegmentedControl)
+    {
+        print(sender.selectedSegmentIndex)
+        
+        
+        switch sender.selectedSegmentIndex
+        {
+        case 0:
+            lblanimal.text = "Cat"
+            imagee.image = UIImage(named: "cat.jpeg")
+            break
+            
+        case 1:
+            lblanimal.text = "Lion"
+            imagee.image = UIImage(named: "lion.jpeg")
+            break
+            
+        case 2:
+            lblanimal.text = "Dog"
+            imagee.image = UIImage(named: "dog.jpeg")
+            break
+            
+        case 3:
+            lblanimal.text = "i am dynamic monkey"
+            imagee.image = UIImage(named: "monkey.jpeg")
+            break
+        default:
+            print("Invalid Choice")
+        }
+        
+    }
+    
+    
+    
+    
+    
+    
     
 }
